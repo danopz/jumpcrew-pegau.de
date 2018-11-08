@@ -26,13 +26,13 @@ html,body {
 /*padding-top: 200px;*/
 /*}*/
 .social-col {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(5,5,5,0.8);
 }
 /*.social-col:hover {*/
 /*background-color: rgba(10,10,10,0.5);*/
 /*}*/
 .social-col:nth-child(odd) {
-    background-color: rgba(5,5,5,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .btn-facebook {
@@ -68,9 +68,6 @@ html,body {
 .social-col footer {
     position: relative;
     bottom: 0;
-}
-.profile-img {
-    width: 100%;
 }
 .icon {
     position: relative;
