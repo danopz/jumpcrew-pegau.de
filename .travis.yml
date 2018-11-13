@@ -1,6 +1,7 @@
 language: minimal
 deploy:
   fqdn: jumpcrew-pegau.de
+  keep-history: true
   local-dir: public
   target-branch: gh-pages
   provider: pages
