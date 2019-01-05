@@ -1,38 +1,43 @@
-
 /*
 fb #3b5999
 insta #e4405f
 yt #cd201f
 */
 
-html,body {
-    height:100%;
+.header-bg {
+    height: 90%;
+
     background-image: url("img/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-position: 50% 50%;*/
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
     background-size: cover;
 }
-.fb, .fb a.btn-link {
-    /*background-color: #dfe3ee;*/
+
+.color-facebook, .color-facebook a.btn-link, a.btn-link.color-facebook {
     color: #3b5999;
 }
-.inst, .inst a.btn-link {
-    /*background-color: yellow;*/
+
+.color-instagram, .color-instagram a.btn-link, a.btn-link.color-instagram {
     color: #e4405f;
 }
-.yt, .yt a.btn-link {
-    /*background-color: red;*/
+
+.color-youtube, .color-youtube a.btn-link, a.btn-link.color-youtube {
     color: #cd201f;
-}
-/*.fb, .inst, .yt {*/
-/*padding-top: 200px;*/
-/*}*/
-.social-col {
-    background-color: rgba(5,5,5,0.8);
-}
-/*.social-col:hover {*/
-/*background-color: rgba(10,10,10,0.5);*/
-/*}*/
-.social-col:nth-child(odd) {
-    background-color: rgba(0,0,0,0.8);
 }
 
 .btn-facebook {
@@ -40,35 +45,31 @@ html,body {
     background-color: #3b5999;
     border-color: #3b5999;
 }
+
 .btn-facebook:hover {
     color: #fff;
-    /*box-shadow:         inset 0 0 10px #000000;*/
-    /*border-color: #000;*/
 }
+
 .btn-instagram {
     color: #fff;
     background-color: #e4405f;
     border-color: #e4405f;
 }
+
 .btn-instagram:hover {
     color: #fff;
-    /*box-shadow:         inset 0 0 10px #000000;*/
-    /*border-color: #000;*/
 }
+
 .btn-youtube {
     color: #fff;
     background-color: #cd201f;
     border-color: #cd201f;
 }
+
 .btn-youtube:hover {
     color: #fff;
-    /*box-shadow:         inset 0 0 10px #000000;*/
-    /*border-color: #000;*/
 }
-.social-col footer {
-    position: relative;
-    bottom: 0;
-}
+
 .icon {
     position: relative;
     top: 0.1em;
@@ -80,6 +81,12 @@ html,body {
     /*stroke-width: 2px;*/
     /*stroke-linecap: round;*/
     /*stroke-linejoin: round;*/
+    vertical-align: baseline;
+}
+
+.icon.medium {
+    width: 2em;
+    height: 2em;
 }
 
 .icon.large {
