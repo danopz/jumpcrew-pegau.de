@@ -30,4 +30,12 @@
     <symbol id="i-external" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
         <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
     </symbol>
+
+    <symbol id="i-chevron-top" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M30 20 L16 8 2 20" />
+    </symbol>
+
+    <symbol id="i-chevron-bottom" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M30 12 L16 24 2 12" />
+    </symbol>
 </svg>
