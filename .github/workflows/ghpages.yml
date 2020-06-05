@@ -1,0 +1,24 @@
+name: Deploy Github Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.DANOPZ_BOT_KEY }}
+          fetch-depth: 1
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.DANOPZ_BOT_KEY }}
+          user_name: 'danopz-bot'
+          user_email: 'bot@copynpaste.de'
+          publish_branch: gh-pages
+          publish_dir: ./public
+          cname: jumpcrew-pegau.de
+          allow_empty_commit: false
