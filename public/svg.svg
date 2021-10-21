@@ -13,29 +13,4 @@
     <symbol id="i-youtube" viewBox="0 0 32 32">
         <path stroke="none" fill="currentColor" d="M16,5c12,0 13,1 13,11 0,10 -1,11 -13,11 -12,0 -13-1 -13-11 0-10 1-11 13-11ZM12,11l0,10 10-5ZZ" />
     </symbol>
-
-    <!-- https://github.com/danklammer/bytesize-icons -->
-    <symbol id="i-user" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <path d="M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z" />
-    </symbol>
-
-    <symbol id="i-msg" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <path d="M2 4 L30 4 30 22 16 22 8 29 8 22 2 22 Z" />
-    </symbol>
-
-    <symbol id="i-video" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <path d="M22 13 L30 8 30 24 22 19 Z M2 8 L2 24 22 24 22 8 Z" />
-    </symbol>
-
-    <symbol id="i-external" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
-    </symbol>
-
-    <symbol id="i-chevron-top" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <path d="M30 20 L16 8 2 20" />
-    </symbol>
-
-    <symbol id="i-chevron-bottom" viewBox="0 0 32 32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-        <path d="M30 12 L16 24 2 12" />
-    </symbol>
 </svg>

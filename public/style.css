@@ -5,7 +5,7 @@ yt #cd201f
 */
 
 .header-bg {
-    height: 90%;
+    height: 100%;
 
     background-image: url("img/bg.jpg");
     background-attachment: fixed;
@@ -40,36 +40,6 @@ html, body {
     color: #cd201f;
 }
 
-.btn-facebook {
-    color: #fff;
-    background-color: #3b5999;
-    border-color: #3b5999;
-}
-
-.btn-facebook:hover {
-    color: #fff;
-}
-
-.btn-instagram {
-    color: #fff;
-    background-color: #e4405f;
-    border-color: #e4405f;
-}
-
-.btn-instagram:hover {
-    color: #fff;
-}
-
-.btn-youtube {
-    color: #fff;
-    background-color: #cd201f;
-    border-color: #cd201f;
-}
-
-.btn-youtube:hover {
-    color: #fff;
-}
-
 .icon {
     position: relative;
     top: 0.1em;
@@ -82,11 +52,6 @@ html, body {
     /*stroke-linecap: round;*/
     /*stroke-linejoin: round;*/
     vertical-align: baseline;
-}
-
-.icon.medium {
-    width: 2em;
-    height: 2em;
 }
 
 .icon.large {

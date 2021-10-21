@@ -1,8 +1,8 @@
 version: "3"
 services:
   web:
-    image: nginx
+    image: docker.io/library/nginx
     volumes:
       - ./public:/usr/share/nginx/html
     ports:
-      - "8080:80"
+      - "8081:80"
